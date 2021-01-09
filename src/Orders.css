@@ -1,0 +1,30 @@
+.orders {
+    padding: 20px 80px;
+}
+.orders > h1 {
+    margin: 30px 0;
+}
+.orders > h2 {
+    margin: 30px 0;
+    max-width: 70%;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #7cbde8;
+}
+.btn__returnHome:link,
+.btn__returnHome:visited {
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    margin-left: 2%;
+    width: 20%;
+    font-size: 120%;
+}
+.orders__shippingTime {
+    display: flex;
+    margin-left: 5%;
+    font-size: 200%;
+    line-height: 150%;
+    font-weight: bold;
+    color: green;
+
+}

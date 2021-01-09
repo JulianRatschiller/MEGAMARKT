@@ -1,0 +1,30 @@
+.checkout {
+    display: flex;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    height: max-content;
+    justify-content: center;
+    margin-right: auto;
+    
+}
+.checkout__left {
+    max-width: 1000px;
+    width: 80%;
+}
+.checkout__ad {
+    max-width: 1200px;
+    width: 80%;
+    margin-bottom: 22.5px;
+    margin-top: 10px;
+}
+.checkout__title {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #3498db;
+}
+.btn__addProducts {
+    width: 30%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    font-size: 120%;
+}
