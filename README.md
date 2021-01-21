@@ -1,6 +1,5 @@
 # MEGAMARKT
 
-#
 Full-Stack E-Commerce Webseite mit React
 
 JavaScript · HTML · CSS/SASS · React · React Redux & Context API · Node.js · Material-UI · Stripe · Firebase
