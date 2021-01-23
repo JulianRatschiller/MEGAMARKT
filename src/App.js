@@ -23,27 +23,25 @@ function App() {
 
   useEffect(() => {
     auth.onAuthStateChanged(authUser => {
-      console.log('USER IS >>> ', authUser);
 
       if (authUser) {
-        // if the user has / was logged in
+        // user ist eingeloggt
         dispatch({
           type: 'SET_USER',
           user: authUser
         })
       } else {
-        // if the user is logged out
+        // user ist ausgeloggt
         dispatch({
           type: 'SET_USER',
           user: null
         })
       }
     })
-  }, [])   //will only run once when app is loaded because brackets are empty
+  }, [])   // [] heisst es läuft nur einmal, keine wiederholung
 
   return (
-    // BEM Naming Convention
-    // Switch Statements - Routes that get checked until one matches
+    // Switch Statement - Routen werden gecheckt bis eine matched
     <Router>
       <div className="app">
 
